@@ -35,9 +35,9 @@ int main() {
 # Detailed Breakdown
 Include Necessary Libraries:
 
-#include '<iostream>': For input/output operations.
-#include '<vector>': For using the std::vector container.
-#include '<string>': For using the std::string class.
+include <iostream>: For input/output operations.
+include <vector>: For using the std::vector container.
+include <string>: For using the std::string class.
 Using the Standard Namespace:
 
 using namespace std;: Allows you to use standard library names without the std:: prefix.
