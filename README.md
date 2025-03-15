@@ -35,12 +35,13 @@ int main() {
 # Detailed Breakdown
 Include Necessary Libraries:
 
-include <iostream>: For input/output operations.
-include <vector>: For using the std::vector container.
-include <string>: For using the std::string class.
-Using the Standard Namespace:
+include iostream: For input/output operations
 
-using namespace std;: Allows you to use standard library names without the std:: prefix.
+include vector: For using the std::vector container
+
+include string: For using the std::string class
+
+Using the Standard Namespace: Allows you to use standard library names without the std:: prefix.
 # Main Function:
 
 int main() { ... }: The entry point of the program.
