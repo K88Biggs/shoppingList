@@ -48,28 +48,42 @@ int main() { ... }: The entry point of the program.
 Initialize Shopping Items:
 
 const string shoppingItem1 = "shoes";
-const string shoppingItem2 = "hat";
-const string shoppingItem3 = "food";
-const string shoppingItem4 = "clothing"; These variables store the names of the shopping items.
-Create a Vector of Strings:
 
-vector<string> stringList;: Declares a vector to hold strings.
-stringList.push_back(shoppingItem1);
+const string shoppingItem2 = "hat";
+
+const string shoppingItem3 = "food";
+
+const string shoppingItem4 = "clothing"; // These variables store the names of the shopping items.
+
+Create a Vector of Strings:
+vector<string> stringList;// Declares a vector to hold strings.
+
+stringList.push_back(shoppingItem1); // Adds the shopping items to the vector.
+
 stringList.push_back(shoppingItem2);
+
 stringList.push_back(shoppingItem3);
-stringList.push_back(shoppingItem4); Adds the shopping items to the vector.
+
+stringList.push_back(shoppingItem4);
+
 Print the Shopping List:
 
-cout << "String List:" << endl;: Prints a header for the list.
-A for loop iterates over the vector and prints each item with its position in the list:
+cout << "String List:" << endl;// Prints a header for the list.
+
+//A for loop iterates over the vector and prints each item with its position in the list:
+
 for (size_t i = 0; i < stringList.size(); ++i) {
-    cout << i + 1 << ". " << stringList[i] << endl;
+    cout << i + 1 << ". " << stringList[i] << endl; //This loop prints each item in the vector, prefixed by its index //(starting from 1).
+
 }
-This loop prints each item in the vector, prefixed by its index (starting from 1).
 
 # How to Run
 Make sure you have a C++ compiler installed on your system.
+
 Save the code to a file named shopping_list.cpp.
+
 Open a terminal or command prompt and navigate to the directory where shopping_list.cpp is saved.
+
 Compile the code using the command: g++ shopping_list.cpp -o shopping_list
+
 Run the compiled program using the command: ./shopping_list (on Unix-based systems) or shopping_list.exe (on Windows).
